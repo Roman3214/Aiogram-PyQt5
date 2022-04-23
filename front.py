@@ -12,10 +12,7 @@ class Ui_MainWindow(object):
         checkBox_style = (
         "QCheckBox"
         "{background-color: #25303E;}"
-        #"QCheckBox:hover"
-        #"{ background-color: #17212B; }"
-        #"QCheckBox:!hover"
-        #"{background-color: #25303E; }"
+        
         )
         checkBox_style_clicked = ("QCheckBox:hover"
         "{"
@@ -46,10 +43,7 @@ class Ui_MainWindow(object):
         self.btnstartClose.setStyleSheet(button_style)
         
             
-        #self.lable = QtWidgets.QLabel('<h1>Введите текст оправительного сообщения!</h1>', self.centralwidget)
-        #          Координаты как ориентир  x , y, XO , YO
-        #self.lable.setGeometry(QtCore.QRect(20, 1, 500, 30))
-        #self.lable.setObjectName("lable")
+        
         # --------------------------Отправка 
         self.TextEdit = QtWidgets.QTextEdit(self.centralwidget)
         self.TextEdit.setGeometry(QtCore.QRect(20, 60, 500, 150))
@@ -137,33 +131,17 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        #self.TextEdit.setText(_translate("MainWindow", "Введите текст сообщения..."))
+       
         self.CheckBoxP.setText(_translate("MainWindow", "Пограничных состояний"))
         self.CheckBoxD.setText(_translate("MainWindow", "Детское отделение"))
         self.CheckBoxN.setText(_translate("MainWindow", "Наркологическое отделение"))
         self.CheckBoxALL.setText(_translate("MainWindow", "Выбрать все отделения"))
         self.btnsend.setText(_translate("MainWindow", "Отправить"))
-        self.deleteButton.setText(_translate("MainWindow", "Удалить файл"))
-        #self.btnBroswse.setText(_translate("MainWindow", "Выбрать папку"))
-        #self.btnArch.setText(_translate("MainWindow", "Архивировать"))
+        self.deleteButton.setText(_translate("MainWindow", "Удалить файл
         self.extractButton.setText(_translate("MainWindow", "Выбрать файл"))
         self.btnstartTG.setText(_translate("MainWindow", "Запуск/Перезапуск бота"))
         self.testButton.setText(_translate("MainWindow", "Test Button"))
         self.btnckear.setText(_translate("MainWindow", "Очистить сообщение"))
         self.btnstartClose.setText(_translate("MainWindow", "Закрыть бота"))
-        #self.CheckBoxALL
-        #[mandatoryField="true"] { background-color: yellow }
-        #nameEdit = self.CheckBoxALL#(self)
-        #nameEdit.setProperty("mandatoryField", True)
 
         
-'''
-        self.listWidget2 = QtWidgets.QListWidget(self.centralwidget)
-        self.listWidget2.setGeometry(QtCore.QRect(150, 21, 131, 151))
-        self.listWidget2.setObjectName("listWidget2")
-
-        self.btnArch = QtWidgets.QPushButton(self.centralwidget)
-        self.btnArch.setGeometry(QtCore.QRect(110, 180, 81, 23))
-        self.btnArch.setObjectName("btnArch")
-
-'''
