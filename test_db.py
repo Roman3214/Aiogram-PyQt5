@@ -56,9 +56,5 @@ finally:
 
 ALL = users_id_Pogr + users_id_Detsk + users_id_Narkolog
 
-def add_info():
-        
-    pass
-    #return
 
 
