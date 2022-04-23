@@ -1,11 +1,4 @@
-BOT_TOKEN = '1540969022:AAEL1JTBnepx02stp78awoSlxpBVsfsFSSM'
-admin_id = '584914872'
-BOT_URL = "https://api.telegram.org/bot1540969022:AAEL1JTBnepx02stp78awoSlxpBVsfsFSSM/{method}"
+BOT_TOKEN = '0000000000:AAAAAAAA...' #youк token
+admin_id = '000000000' #youк id telegram
+BOT_URL = "https://api.telegram.org/bot..." # your bot url
 
-
-
-App_api_ID = '18696050'
-App_api_HASH = '404c5446ae420ca6ba512a9df92848c8'
-
-app_title = 'psychological information'
-Short_name = 'infopsyh'
